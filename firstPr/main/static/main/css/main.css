@@ -1,0 +1,137 @@
+body{
+    background: #2c2c2c;
+    border-right: 5px solid #4d4d4d;
+
+}
+j{
+    font-size: 20px; """ размер шрифта
+    margin-left: 10px;                 "левый отступ"""
+    font-weight: bold;
+    color: #fff;
+}
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside .logo{
+    font-size: 32px; """ размер шрифта
+    margin-left: 10px;                 "левый отступ"""
+    font-weight: bold;
+}
+aside p{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul{
+list-style: none;
+text-decoration: none;
+vertical-align: middle;
+}
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+ aside ul li:hover, aside a:hover{
+    color: #FFFF00;
+    text-decoration: none;
+    transform: scale(1.05);
+
+ }
+ graph{
+    margin-left: 60px;
+    width: 20%;
+    padding: 2.5%;
+    float: left;
+ }
+ fCity{
+ width: 300px;
+ height: 50vh;
+ }
+
+
+
+ * {
+box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #e9edf7;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #FFFF00;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #FFFF00;
+  color: #000000;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
